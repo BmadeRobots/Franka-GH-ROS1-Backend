@@ -7,6 +7,7 @@ https://github.com/BmadeRobots/Robots
 ## Prerequisite
 - Install Ubuntu 20.04 with RT Kernel. We tested the kernel version 5.15.148-rt74, you can build your own kernel by following this [link](https://www.acontis.com/en/building-a-real-time-linux-kernel-in-ubuntu-preemptrt.html) 
 - Install ROS Neotic [link](http://wiki.ros.org/noetic/Installation/Ubuntu)
+- Install libfranka and allow user to set real-time permission [link](https://frankaemika.github.io/docs/installation_linux.html)
 - Install Frankx, we are using a version from [Toni-SM](https://github.com/Toni-SM) because it allow us to listen to the robot state while the robot is moving. See this (PR)[https://github.com/pantor/frankx/pull/44]
 ```
 git clone --recurse-submodules -b robot-state https://github.com/heiyin1207/frankx.git
